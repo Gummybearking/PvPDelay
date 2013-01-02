@@ -1,0 +1,19 @@
+To-Delay:
+- tpa
+- tpahere 
+Delay:
+  Seconds: 10
+  Minutes: 0
+  Final-Count-Down: 5
+Protection-Radius: 5
+Interaction-Blocks:
+- LAVA_BUCKET
+- BOW
+Messages:
+  Damaged-While-Protected: '&7You cannot attack this person for &6%t Seconds'
+  Attacks-While-Protected: '&7You cannot attack this person for &6%t Seconds'
+  Targets-Protected: '&7You cannot target that player for &6%t Seconds'
+  Casts-While-Protected: '&7You cannot cast spells for &6%tSeconds'
+  Five-Seconds-Left: '&7You protection will expire in &65 Seconds'
+  Final-Count-Down: '&7%t Seconds remaining'
+  Too-Close: '&7You are too close to a protected player to use this for &6%t Seconds'
